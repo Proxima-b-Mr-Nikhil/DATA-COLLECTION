@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:rotation="45"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:visibility="visible">
+
+    <LinearLayout
+        android:id="@+id/frag1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/Lone"
+            android:orientation="vertical"
+            android:background="@drawable/homebg"
+            android:layout_width="90dp"
+            android:layout_height="90dp">
+            <Button
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:rotation="-45"
+                android:id="@+id/Bone"
+                android:layout_width="45dp"
+                android:layout_height = "45dp"
+                android:background="@drawable/ic_playlist_add_black_24dp"
+                android:clickable="true"
+                android:visibility="visible"/>
+            <LinearLayout
+                android:rotation="-45"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="-5dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:fontFamily="@font/helvetica"
+                    android:id="@+id/Tone"
+                    android:textColor="@color/quantum_black_100"
+                    android:textSize="11sp"
+                    android:layout_marginTop="4dp"
+                    android:layout_width="wrap_content"
+                    android:text="Manage Projects"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="15dp"
+            android:layout_height="wrap_content">
+        </Space>
+        <LinearLayout
+            android:id="@+id/Ltwo"
+            android:orientation="vertical"
+            android:background="@drawable/homebg"
+            android:layout_width="90dp"
+            android:layout_height="90dp">
+            <Button
+
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:rotation="-45"
+                android:id="@+id/Btwo"
+                android:layout_width="40dp"
+                android:layout_height = "40dp"
+                android:background="@drawable/ic_person_add_black_24dp"
+                android:clickable="true"
+                android:visibility="visible" />
+
+            <LinearLayout
+                android:rotation="-45"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="-5dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:fontFamily="@font/helvetica"
+                    android:id="@+id/Ttwo"
+                    android:textColor="@color/quantum_black_100"
+                    android:textSize="11sp"
+                    android:layout_width="wrap_content"
+                    android:text="Add Users"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/frag2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/Lthree"
+            android:orientation="vertical"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/homebg"
+            android:layout_width="90dp"
+            android:layout_height="90dp">
+            <Button
+
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:rotation="-45"
+                android:background="@drawable/ic_person_outline_black_24dp"
+                android:id="@+id/Bthree"
+                android:layout_width="50dp"
+                android:layout_height = "50dp"
+                android:clickable="true"
+                android:visibility="visible" />
+            <LinearLayout
+                android:rotation="-45"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="-5dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:fontFamily="@font/helvetica"
+                    android:id="@+id/Tthree"
+                    android:textColor="@color/quantum_black_100"
+                    android:textSize="11sp"
+                    android:layout_width="wrap_content"
+                    android:text="All Users"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <Space
+            android:layout_width="15dp"
+            android:layout_height="wrap_content">
+        </Space>
+
+        <LinearLayout
+            android:id="@+id/Lhelp"
+            android:orientation="vertical"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/homebg"
+            android:layout_width="90dp"
+            android:layout_height="90dp">
+            <Button
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:rotation="-45"
+                android:id="@+id/Bhelp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/ic_help_outline_black_24dp"
+                android:clickable="true"
+                android:visibility="visible" />
+            <LinearLayout
+                android:rotation="-45"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="-5dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:fontFamily="@font/helvetica"
+                    android:id="@+id/Thelp"
+                    android:textColor="@color/quantum_black_100"
+                    android:textSize="11sp"
+                    android:layout_width="wrap_content"
+                    android:text="Help"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

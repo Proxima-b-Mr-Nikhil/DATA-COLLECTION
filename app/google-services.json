@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "702199390855",
+    "firebase_url": "https://vb-tantra-v1.firebaseio.com",
+    "project_id": "vb-tantra-v1",
+    "storage_bucket": "vb-tantra-v1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:702199390855:android:8dfc3799783d2c9dbfce22",
+        "android_client_info": {
+          "package_name": "com.vbgroups.vbtantrav1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "702199390855-00r52ah1vutuim0dgh8tfm5f7564dm3g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqXzCLEPG-H3f6Gq4jDDVCGHuh02yZVrk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "702199390855-00r52ah1vutuim0dgh8tfm5f7564dm3g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

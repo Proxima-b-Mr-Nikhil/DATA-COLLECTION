@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/l"
+    android:layout_width="match_parent"
+    android:screenOrientation="portrait"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#96E5E7F1">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="2dp"
+            app:cardMaxElevation="3dp"
+            app:contentPadding="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:fontFamily="@font/helvetica"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="PLANT DETAILS"
+                    android:textColor="@color/quantum_black_100"
+                    android:textSize="15sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.8dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@color/GRAY" />
+
+                <TextView
+                    android:fontFamily="@font/helvetica"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Plant Name"
+                    android:textColor="@color/quantum_bluegrey800"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <EditText
+                    android:fontFamily="@font/helvetica"
+                    android:id="@+id/plantname"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="@drawable/edittextbg">
+
+                </EditText>
+                <TextView
+                    android:fontFamily="@font/helvetica"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="City"
+                    android:textColor="@color/quantum_bluegrey800"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <EditText
+                    android:fontFamily="@font/helvetica"
+                    android:id="@+id/plantcity"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="@drawable/edittextbg">
+
+                </EditText>
+
+
+
+                <TextView
+                    android:fontFamily="@font/helvetica"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Plant Visit Date"
+                    android:textColor="@color/quantum_bluegrey800"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <EditText
+                    android:fontFamily="@font/helvetica"
+                    android:padding="10dp"
+                    android:id="@+id/visitdate"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:focusable="false"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="@drawable/edittextbg"
+                    android:paddingStart="10dp"
+                    tools:ignore="RtlSymmetry">
+
+                </EditText>
+
+                <TextView
+                    android:fontFamily="@font/helvetica"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Type of Plant"
+                    android:textColor="@color/quantum_bluegrey800"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <Spinner
+                    android:fontFamily="@font/helvetica"
+                    android:padding="10dp"
+                    android:popupBackground="#D3D5D3"
+                    android:id="@+id/planttype"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="@drawable/edittextbg"
+                    android:paddingStart="10dp"
+                    tools:ignore="RtlSymmetry">
+
+                </Spinner>
+                <LinearLayout
+                    android:weightSum="2"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:fontFamily="@font/helvetica"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Location"
+                        android:textColor="@color/quantum_bluegrey800"
+                        android:textStyle="bold">
+
+                    </TextView>
+                    <ImageView
+                        android:fontFamily="@font/helvetica"
+                        android:id="@+id/refresh"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="150dp"
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/ic_place_black_24dp"
+                        android:layout_height="wrap_content">
+                    </ImageView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/selectlocation"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:fontFamily="@font/helvetica"
+                        android:padding="10dp"
+                        android:focusable="false"
+                        android:id="@+id/latitude"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@drawable/edittextbg"
+                        android:paddingStart="10dp"
+                        tools:ignore="RtlSymmetry">
+                    </TextView>
+                    <TextView
+                        android:fontFamily="@font/helvetica"
+                        android:padding="10dp"
+                        android:focusable="false"
+                        android:id="@+id/lontitude"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@drawable/edittextbg"
+                        android:paddingStart="10dp"
+                        tools:ignore="RtlSymmetry">
+
+                    </TextView>
+                </LinearLayout>
+
+
+                <TextView
+                    android:fontFamily="@font/helvetica"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Purpose of Visit"
+                    android:textColor="@color/quantum_bluegrey800"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <Spinner
+                    android:fontFamily="@font/helvetica"
+                    android:padding="10dp"
+                    android:popupBackground="#D3D5D3"
+                    android:id="@+id/purposeofvisit"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="@drawable/edittextbg"
+                    android:paddingStart="10dp"
+                    tools:ignore="RtlSymmetry">
+
+                </Spinner>
+
+                <TextView
+                    android:fontFamily="@font/helvetica"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Ref Contact Person"
+                    android:textColor="@color/quantum_bluegrey800"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <EditText
+                    android:fontFamily="@font/helvetica"
+                    android:padding="10dp"
+                    android:id="@+id/refname"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="@drawable/edittextbg"
+                    android:paddingStart="10dp"
+                    tools:ignore="RtlSymmetry">
+
+                </EditText>
+
+
+                <TextView
+                    android:fontFamily="@font/helvetica"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Ref Contact Number"
+                    android:textColor="@color/quantum_bluegrey800"
+                    android:textStyle="bold">
+
+                </TextView>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:fontFamily="@font/helvetica"
+                        android:id="@+id/countrycode"
+                        android:inputType="number"
+                        android:layout_width="80dp"
+                        android:layout_height="39dp"
+                        android:layout_marginTop="8dp"
+                        android:padding="10dp"
+                        android:background="@drawable/edittextbg"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginStart="20dp"/>
+                    <EditText
+                        android:fontFamily="@font/helvetica"
+                        android:padding="10dp"
+                        android:id="@+id/refphone"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:inputType="number"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@drawable/edittextbg">
+
+                    </EditText>
+                </LinearLayout>
+
+                <CheckBox
+                    android:fontFamily="@font/helvetica"
+                    android:id="@+id/checkBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="I declare that the information provided by me is accurate." />
+                <Button
+                    android:fontFamily="@font/helvetica"
+                    android:id="@+id/submit"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:textColor="#ffff"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="#1db086"
+                    android:text="Next"
+                    android:textStyle="normal">
+
+                </Button>
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+</LinearLayout>

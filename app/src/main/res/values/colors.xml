@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5a7e8e</color>
+    <color name="colorPrimaryDark">#557685</color>
+    <color name="colorAccent">#090909</color>
+    <color name="register_bk_color">#11CFC5</color>
+    <color name="white">#ffff</color>
+    <color name="quantum_black_100">#090707</color>
+    <color name="quantum_bluegrey800">#656161</color>
+    <color name="GRAY">#777777</color>
+    <color name="quantum_vanillared500">#F80D0D</color>
+    <color name="quantum_yellow">#F4CD23</color>
+
+    <color name="bg_bubble_self">#C0F1E0</color>
+    <color name="bg_bubble_watbot">#ecf0f1</color>
+</resources>

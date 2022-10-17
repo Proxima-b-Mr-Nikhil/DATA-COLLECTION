@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">VB Tantra</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="registration">Registration</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="mobile_no">Mobile No.</string>
+    <string name="optional">( optional )</string>
+    <string name="job_duration">Job duration</string>
+    <string name="position">Position</string>
+    <string name="job_status">Job status</string>
+    <string name="i_declare_that_the_information_provided_by_me_is_accurate">I declare that the information provided by me is accurate.</string>
+    <string name="submit">Submit</string>
+</resources>

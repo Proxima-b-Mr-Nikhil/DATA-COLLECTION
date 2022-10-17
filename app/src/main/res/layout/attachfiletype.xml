@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/c"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="@android:dimen/app_icon_size"
+        android:layout_marginBottom="@android:dimen/app_icon_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:id="@+id/pdf"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:src="@drawable/pdf"
+                android:layout_width="60dp"
+
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:padding="10dp" />
+
+            <TextView
+                android:fontFamily="@font/helvetica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:lines="1"
+                android:autoSizeTextType="uniform"
+                android:gravity="center_horizontal"
+                android:text="PDF"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:id="@+id/txtfile"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:src="@drawable/txt"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                />
+
+            <TextView
+                android:fontFamily="@font/helvetica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center_horizontal"
+                android:text="TXT"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+
+            android:layout_width="0dp"
+            android:id="@+id/excelfile"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:src="@drawable/xls"
+                android:layout_width="55dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                />
+
+            <TextView
+                android:fontFamily="@font/helvetica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center_horizontal"
+                android:text="EXCEL"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="@android:dimen/app_icon_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:id="@+id/wordfile"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:src="@drawable/microsoftword"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:padding="10dp" />
+
+            <TextView
+                android:fontFamily="@font/helvetica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:lines="1"
+                android:autoSizeTextType="uniform"
+                android:gravity="center_horizontal"
+                android:text="WORD"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:id="@+id/image"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:src="@drawable/ic_image_black_24dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                />
+
+            <TextView
+                android:fontFamily="@font/helvetica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center_horizontal"
+                android:text="IMAGE"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:id="@+id/docx"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:src="@drawable/docx"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                />
+
+            <TextView
+                android:fontFamily="@font/helvetica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center_horizontal"
+                android:text="DOCX"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <EditText
+        android:fontFamily="@font/helvetica"
+        android:visibility="gone"
+        android:id="@+id/filename"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:hint="   File name*"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:textColorHint="#3A3939"
+        android:background="@drawable/edittextbg"/>
+    <EditText
+        android:fontFamily="@font/helvetica"
+        android:visibility="gone"
+        android:id="@+id/plant"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:hint="   Plant name*"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:textColorHint="#3A3939"
+        android:background="@drawable/edittextbg"/>
+    <EditText
+        android:fontFamily="@font/helvetica"
+        android:visibility="gone"
+        android:id="@+id/city"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:hint="   City name*"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:textColorHint="#3A3939"
+        android:background="@drawable/edittextbg"/>
+
+    <Button
+        android:fontFamily="@font/helvetica"
+        android:visibility="gone"
+        android:id="@+id/submit"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:textColor="#ffff"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="#1db086"
+        android:text="Next"
+        android:textStyle="normal">
+
+    </Button>
+
+</LinearLayout>
